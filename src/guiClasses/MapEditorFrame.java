@@ -265,7 +265,9 @@ public class MapEditorFrame extends JFrame implements ActionListener
 			e1.printStackTrace();
 		}
 	}
-	
+	/**
+	 * Updates board
+	 */
 	private void update() {
 		for(int i=0;i<13;i++)
 			for(int j=0;j<13;j++)
